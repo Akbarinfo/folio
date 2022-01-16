@@ -6,14 +6,16 @@
   box-sizing: border-box;
 }
 
-:root {
+.root {
   --body-color: #fff;
   --text-color: #161c2d;
+  --btn-color: rgb(206, 212, 231);
 }
 
 .dark {
   --body-color: #161c2d;
   --text-color: #fff;
+  --btn-color: #fff;
 }
 
 body {
@@ -492,16 +494,18 @@ body {
   padding-top: 50px;
 }
 
-.bx-chevron-left {
+.bx-chevron-left, .rg {
   color: #fff;
   font-size: 24px;
 }
 
 .fixed-color {
   position: fixed;
+  border: none;
   top: 33%;
   right: 0;
   z-index: 50;
+  background: none;
 }
 
 .color-box {
@@ -509,6 +513,76 @@ body {
   border-bottom-left-radius: 10px;
   background-color: rgb(73, 95, 239);
   padding: 10px 5px;
+  border: none;
+}
+
+.fixed-color-exit {
+  display: none;
+  position: fixed;
+  z-index: 51;
+  right: 0;
+  top: 33%;
+  width: 0px;
+  height: 0px;
+  background-color: rgb(73, 95, 239);
+  border-bottom-left-radius: 30px;
+  transition-duration: 2s;
+  transition-property: display width height;
+  transition-timing-function: linear;
+}
+.show {
+  display: block;
+  width: 180px;
+  height: 100px;
+}
+
+
+.fixed-color-right {
+  position: fixed;
+  right: 180px;
+  border: none;
+  background: none;
+}
+
+.fixed-color-text {
+  position: relative;
+  top: 15px;
+  left: 35px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.fixed-btn-box {
+  position: relative;
+  border: none;
+  top: 30%;
+  left: 20px;
+}
+
+.fixed-btn {
+  border: none;
+  background-color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  height: 42px;
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 1.38px;
+  text-transform: uppercase;
+}
+
+.fixed-light {
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.fixed-dark {
+  position: relative;
+  right: 5px;
+  background-color: rgb(206, 212, 231);
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
 /* MAIN PHOTO PART END */
