@@ -5,14 +5,309 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
+  <title>Folio</title>
 </head>
 
 <body>
+  <header class="fixed row between">
+    <div class="header-logo">
+      <a href="/">folio.</a>
+    </div>
+    <nav class="header-nav row">
+      <ul class="header-list row middle">
 
+        <!-- creative demos part  -->
+
+        <li class="header-item hover-item row middle">creative demos <i class='bx bx-chevron-down'></i>
+          <div class="page-box">
+            <ul class="page-list">
+              <li class="page-item"><a class="page-link" href="#">designer 01</a></li>
+              <li class="page-item"><a class="page-link" href="#">designer 02</a></li>
+              <li class="page-item"><a class="page-link" href="#">devloper 01</a></li>
+              <li class="page-item"><a class="page-link" href="#">devloper 02</a></li>
+              <li class="page-item"><a class="page-link" href="#">agency 01</a></li>
+              <li class="page-item"><a class="page-link" href="#">agency 02</a></li>
+              <li class="page-item"><a class="page-link" href="#">photography 01</a></li>
+              <li class="page-item"><a class="page-link" href="#">photography 02</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <!-- pages part -->
+
+        <li class="header-item hover-item row middle">pages<i class='bx bx-chevron-down'></i>
+
+          <!-- pages portfolio part -->
+
+          <div class="page-box">
+            <ul class="page-list">
+              <li class="page-item portfolio-hover row middle">portfolio <i class='bx bx-chevron-right right1'></i>
+
+                <!-- portfolio part  -->
+
+                <div class="page2-box">
+                  <ul class="page-list">
+                    <li class="page-item masonry-hover hover-bx row middle">masonry style <i
+                        class='bx bx-chevron-right right2'></i>
+
+                      <!-- masonry style part -->
+                      <div class="page3-box masonry-hover">
+                        <ul class="page-list">
+                          <li class="page-item"><a class="page-link" href="#">masonry grid </a></li>
+                          <li class="page-item"><a class="page-link" href="#">masonry grid 3 fluid</a></li>
+                          <li class="page-item"><a class="page-link" href="#">masonry grid 3</a></li>
+                          <li class="page-item"><a class="page-link" href="#">masonry grid 4 fluid</a></li>
+                          <li class="page-item"><a class="page-link" href="#">masonry grid 4</a></li>
+                        </ul>
+                      </div>
+                    </li>
+
+
+                    <li class="page-item masonry-hover hover-bx row middle">portfolio details <i
+                        class='bx bx-chevron-right right2'></i>
+
+                      <!-- grid style part -->
+                      <div class="page3-box masonry-hover">
+                        <ul class="page-list">
+                          <li class="page-item"><a class="page-link" href="#">grid style 2 </a></li>
+                          <li class="page-item"><a class="page-link" href="#">grid style 3 fluid</a></li>
+                          <li class="page-item"><a class="page-link" href="#">grid style 3 fluid</a></li>
+                          <li class="page-item"><a class="page-link" href="#">grid style 4</a></li>
+                          <li class="page-item"><a class="page-link" href="#">grid style 4 fluid</a></li>
+                        </ul>
+                      </div>
+
+                    </li>
+                  </ul>
+                </div>
+              </li>
+
+              <!-- pages portfolio details part -->
+
+              <li class="page-item portfolio-hover row middle">portfolio details <i
+                  class='bx bx-chevron-right right1'></i>
+                <div class="page2-box">
+                  <ul class="page-list">
+                    <li class="page-item hover2-item row middle"><a class="page-link" href="#">details 01</a>
+                    </li>
+                    <li class="page-item row middle"><a class="page-link" href="#">details 02</a>
+                    </li>
+                  </ul>
+                </div>
+
+              </li>
+              <li class="page-item"><a class="page-link" href="#">about</a></li>
+              <li class="page-item"><a class="page-link" href="#">contact</a></li>
+            </ul>
+          </div>
+        </li>
+
+        <!-- header list  -->
+
+        <li class="header-item"><a class="page-link" href="#">about me.</a></li>
+        <li class="header-item"><a class="page-link" href="#">contact.</a></li>
+        <li class="header-item"><a class="page-link" href="#">support</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <!-- hero part  -->
+
+  <section class="hero-part">
+    <div class="container">
+      <div class="row row middle">
+        <div class="col-7">
+          <p class="hero-text">ILLUSTRATOR, GRAPHIC DESIGNER, TRAVELER</p>
+          <h2 class="hero-title">I design digital crafts for clients.</h2>
+
+          <a class="hero-link" href="#works">explore works <span class="hero-span"><img src="imgs/icon-left.svg"
+                alt="icon-left" width="18" height="12"></span></a>
+        </div>
+        <div class="hero-img">
+          <img
+            src="https://folio-next-live.netlify.app/_next/static/images/portrait-1-4db518f05f5503adba2bdd0803e1352e.png"
+            alt="" width="445" height="479">
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <main>
+    <section class="main-works" id="#works">
+
+      <!-- main works container part -->
+
+      <div class="container">
+        <div class="row">
+          <ul class="main-works-list row">
+            <li class="main-works-item"><a class="main-works-link active" href="#">all works</a></li>
+            <li class="main-works-item"><a class="main-works-link" href="#">branding</a></li>
+            <li class="main-works-item"><a class="main-works-link" href="#">ux design</a></li>
+            <li class="main-works-item"><a class="main-works-link" href="#">photography</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- main works photo part  -->
+
+      <ul class="main-photo-list">
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-8-a45866d7e9bb3dc06310712b519af3e5.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">web</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Perfumed</a></h2>
+          </div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-7-29890d2222dd7f2254b7bdb1259a68fa.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">PHOTOGRAPHY</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Travel App</a></h2>
+          </div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-6-bfe4da5d826b659e9f826d84e9443404.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">MARKETING</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Shopper</a></h2></div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-5-d251fa7b2a63339757c4f6efb532c721.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">BRANDING</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Candy Store</a></h2></div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-4-d00ebecfe1a4d35cfe572f92e9fbe620.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">BRANDING</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Travel App</a></h2></div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-3-087560f17d2c9d21ddb1ace5c6f27e43.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">BRANDING</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Ice Cream
+              </a></h2></div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-16-b000c7677657a2c1763849c6468b7b38.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">BRANDING</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Camera</a></h2></div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-15-d92fbd169ac0d4bcb5b1bf4e0082c627.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">BRANDING</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Smart Watch
+              </a></h2></div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img" src="imgs/kadr-img.jpg" alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">BRANDING</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Smart Film</a></h2></div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-1-a76455dce3c781476311509f77ffc935.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">MARKETING</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Coffee Cream</a></h2></div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-12-df74abd272b2ad2155f5f1b5841a693e.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">MARKETING</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Noodles</a></h2></div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-11-c7750cfc9ee28ff03f4e6067cb3d20a4.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">UX-DESIGN</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Laptop Desk</a></h2></div>
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-14-9ca42783ead6ad412af44aaae70b1ef9.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">UX-DESIGN</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Candy Store</a></h2></div>
+
+        </li>
+        <li class="main-photo-item"><a href="#"><img class="main-photo-img"
+              src="https://folio-next-live.netlify.app/_next/static/images/portfolio-mas-13-a894fe5b4c87fb481f0f5ca5e8b87852.jpg"
+              alt=""></a>
+
+          <div class="main-photo-desc">
+            <h2 class="main-photo-subtitle">UX-DESIGN</h2>
+            <h2 class="main-photo-name"><a class="page-link" href="#">Caffee Roast</a></h2></div>
+
+        </li>
+      </ul>
+    </section>
+
+    <section class="main-for-part">
+      <div class="container">
+        <div class="main-for">
+          <p class="main-for-desc">AVAILABLE FOR FREELANCE PROJECTS</p>
+          <h2 class="main-for-title">Do you have illustration project? Let's talk.</h2>
+          <button class="main-for-btn"><i class='bx bxs-message-rounded bx-flip-horizontal'></i> Let's talk now</button>
+        </div>
+        <p class="main-for-copyright">© 2020 ALL RIGHT RESEVED
+        </p>
+      </div>
+
+
+    </section>
+
+  </main>
+  <span class="fixed-color" id="color">
+    <i class='color-box bx bx-chevron-left bx-flip-vertical'></i>
+  </span>
   <script src="js/main.js"></script>
 </body>
 
