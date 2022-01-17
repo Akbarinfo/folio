@@ -1,8 +1,3 @@
-// document.getElementById('color').addEventListener('click', function()
-// {
-//   document.body.classList.toggle('dark')
-// } )
-
 let rightbtn = document.getElementById('right-click');
 
 let leftbtn = document.getElementById('left-click');
@@ -26,5 +21,5 @@ document.getElementById('id-dark').addEventListener('click', function()
 
 document.getElementById('id-light').addEventListener('click', function()
 {
-  document.body.classList.toggle('root')
+  document.body.classList.remove('dark')
 } )
