@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.root {
+:root {
   --body-color: #fff;
   --text-color: #161c2d;
   --btn-color: rgb(206, 212, 231);
